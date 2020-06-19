@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bejajar PHP - Operator | Tefa.com</title>
+  <meta name="description" content="Web Development Teaching Factory">
+  <meta name="author" content="Tefa">
+
+</head>
+<body>
+<h2>A. Operator Assignment</h2>	
+<?php 
+//A. Operator Assignment
+$operand1 = 10;
+$operand2 = 9;
+?>
+<ul>
+	<li><code>$operand1 = 10; </code> 
+	<li><code>$operand2 = 9; </code> 
+</ul>
+<hr />
+
+<h2>B. Operator Arithmatika</h2>	
+<ul>
+	<li>1. Penjumlahan:
+		<code>
+		<?php 
+		//Somehow + dan - harus pakai kurung. Why???
+		echo "$operand1 + $operand2 =" . ($operand1+$operand2);
+		?>
+		</code>
+	</li>
+	<li>2. Pengurangan:
+		<code>
+		<?php 
+		echo "$operand1 - $operand2 =" . ($operand1-$operand2);
+		?>
+		</code>
+	</li>
+	<li>3. Perkalian:
+		<code>
+		<?php 
+		echo "$operand1 * $operand2 =". ($operand1*$operand2);
+		?>
+		</code>
+	</li>
+	<li>4. Pembagian:
+		<code>
+		<?php 
+		echo "$operand1 / $operand2 =". ($operand1/+$operand2);
+		?>
+		</code>
+	</li>
+	<li>4. Modulus (Sisa hasil bagi):
+		<code>
+		<?php 
+		echo "$operand1 % $operand2 =". ($operand1%$operand2);
+		?>
+		</code>
+	</li>
+</ul>	
+<hr />
+
+<h2>C. Operator Comparison</h2>	
+<code>0||empty = False, 0< True >0 </code>
+<ul>
+	<li>1. Lebih besar (>):
+		<code>
+		<?php 
+		echo "$operand1 > $operand2 =". ($operand1 > $operand2);
+		?>
+		</code>
+	</li>
+	<li>2. Lebih kecil (<):
+		<code>
+		<?php 
+		echo "$operand1 < $operand2 =". ($operand1 < $operand2);
+		?>
+		</code>
+	</li>
+	<li>3. Lebih besar atau sama dengan (>=):
+		<code>
+		<?php 
+		echo "$operand1 >= $operand2 =". ($operand1 >= $operand2);
+		?>
+		</code>
+	</li>
+	<li>4. Lebih kecil atau sama dengan (<=):
+		<code>
+		<?php 
+		echo "$operand1 <= $operand2 =". ($operand1 <= $operand2);
+		?>
+		</code>
+	</li>
+	<li>5. Tidak sama dengan (!=):
+		<code>
+		<?php 
+		echo "$operand1 != $operand2 =". ($operand1 != $operand2);
+		?>
+		</code>
+	</li>
+</ul>	
+<hr />
+
+<h2>D. Increament/Decreament</h2>	
+<ul>
+	<li><code>$operand1++;  //$operand1 = $operand1+1;</code>
+	<li><code><?php echo "operand1 = $operand1";?></code></li>
+	<li><code>$operand2--;  //$operand2 = $operand2-1;</code></li>	
+	<li><code><?php echo "operand2 = $operand2";?></code></li> 
+</ul>	
+<hr />
+
+<h2>E. Logical</h2>	
+<ul>
+	<li>TRUE <code>&&</code></li>
+	<li>OR <code>||</code></li>
+</ul>
+<hr />
+
+<h2>F. String operator</h2>	
+<ul>
+	<li>Concatenate <code>"."</code></li>
+	<li><code><?php echo "$operand1 ." . "$operand2";?> = <?php $operand1.$operand2;?></code></li>
+</ul>
+</body>
+</html>

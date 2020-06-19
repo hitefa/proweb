@@ -1,0 +1,26 @@
+//Inisialisasi ARRAY
+
+//PHP < 6.5
+$hari = array();
+
+//PHP >7, alternative inisialisasi
+$hari = [];
+
+//Manual index
+$hari[0] = "Senin";
+$hari[1] = "Selasa";
+$hari[2] = "Rabu";
+$hari[3] = "Kamis";
+$hari[4] = "Jumat";
+$hari[5] = "Sabtu";
+$hari[6] = "Minggu";
+
+echo "Array index 0 ".$hari[0];
+
+//Auto-index
+$cmyk = array("Cyan","Magenta","Yellow","Black");
+echo 
+
+
+//PHP v7
+$hari = ["Senin","Selasa","Rabu","Kamis","Jumat","Sabtu","Minggu"];

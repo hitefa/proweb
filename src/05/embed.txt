@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bejajar PHP | Tefa.com</title>
+  <meta name="description" content="Web Development Teaching Factory">
+  <meta name="author" content="Tefa">
+
+</head>
+<body>
+	<h1>Janji siswa</h1>
+	<?php
+		echo "Mulai hari ini ". date("d, J Y")." saya tobat makan cabe";
+	?>
+</body>
+</html>

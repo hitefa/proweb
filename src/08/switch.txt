@@ -1,0 +1,57 @@
+<?php
+
+$today = date("D");
+
+switch ($today) {
+	case "Mon":
+		echo "Senin pagi, upacara Bendera";
+		break;
+
+	case "Tue":
+		echo "Selasa, Olah raga";
+		break;
+
+	case "Wed":
+		echo "Rabu, Mabar";
+		break;
+
+	case "Thu":
+		echo "Kamis, renang";
+		break;
+
+	case "Fri":
+		echo "Jum'at, Sabtu sudah dekat";
+		break;
+
+	case "Sat":
+		echo "Sabtu, Yippi...";
+		break;
+
+	case "Sun":
+		echo "Minggu, waktunya mager";
+		break;
+}
+
+Tips:
+Jika kondisi yang bisa diterima atau bernilai benar lebih dari 1, maka "case" bisa dibuat bertingkat seperti berikut:
+
+$command = "open";
+switch ($command) {
+	case 'open':
+		echo "Open document";	
+		break;
+	
+	case 'new':
+		echo "Create new document";
+		break;
+
+	//case bertingkat
+	case "logout":
+	case "exit":
+		echo "Close the app";
+		break;
+
+	default:
+		//do nothing
+		break;
+}
